@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="RecipeIngredientCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReusableRecipeIngredientCell" rowHeight="98" id="jpw-Ej-Lqx" customClass="RecipeIngredientCell" customModule="OurRecipes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jpw-Ej-Lqx" id="mCy-9p-Ltw">
+                <rect key="frame" x="0.0" y="0.0" width="410" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOq-Od-rg6">
+                        <rect key="frame" x="16.000000000000004" y="16" width="41.333333333333343" height="66"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bOq-Od-rg6" secondAttribute="trailing" constant="16" id="3pg-v6-sIc"/>
+                    <constraint firstAttribute="bottom" secondItem="bOq-Od-rg6" secondAttribute="bottom" constant="16" id="8rR-fV-4wq"/>
+                    <constraint firstItem="bOq-Od-rg6" firstAttribute="top" secondItem="mCy-9p-Ltw" secondAttribute="top" constant="16" id="Dbe-eQ-sGg"/>
+                    <constraint firstItem="bOq-Od-rg6" firstAttribute="leading" secondItem="mCy-9p-Ltw" secondAttribute="leading" constant="16" id="Uu0-ZP-4xW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="recipeIngredientLabel" destination="bOq-Od-rg6" id="haA-LK-jRo"/>
+            </connections>
+            <point key="canvasLocation" x="262.59541984732823" y="-100"/>
+        </tableViewCell>
+    </objects>
+</document>
