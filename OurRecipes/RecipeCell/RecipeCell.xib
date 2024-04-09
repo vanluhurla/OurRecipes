@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,7 +20,7 @@
                         <rect key="frame" x="16" y="4" width="462" height="194"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Q3h-bN-kgh">
-                                <rect key="frame" x="20" y="0.0" width="422" height="194"/>
+                                <rect key="frame" x="0.0" y="0.0" width="442" height="194"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hUf-A6-Dil">
                                         <rect key="frame" x="16" y="16" width="80" height="162"/>
@@ -48,19 +48,19 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FJx-lm-tPq">
-                                        <rect key="frame" x="112" y="16" width="294" height="162"/>
+                                        <rect key="frame" x="112" y="16" width="314" height="162"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="CmE-jR-pHW">
-                                                <rect key="frame" x="0.0" y="61.666666666666671" width="294" height="38.666666666666671"/>
+                                                <rect key="frame" x="0.0" y="61.666666666666671" width="314" height="38.666666666666671"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IL-fq-1x5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="294" height="20.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="314" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6M-qj-Txt">
-                                                        <rect key="frame" x="0.0" y="24.333333333333329" width="294" height="14.333333333333336"/>
+                                                        <rect key="frame" x="0.0" y="24.333333333333329" width="314" height="14.333333333333336"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -85,7 +85,7 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
-                            <constraint firstItem="Q3h-bN-kgh" firstAttribute="leading" secondItem="aSk-cr-Be5" secondAttribute="leading" constant="20" id="HZz-gj-aIg"/>
+                            <constraint firstItem="Q3h-bN-kgh" firstAttribute="leading" secondItem="aSk-cr-Be5" secondAttribute="leading" id="HZz-gj-aIg"/>
                             <constraint firstAttribute="trailing" secondItem="Q3h-bN-kgh" secondAttribute="trailing" constant="20" id="OhP-dS-pV9"/>
                             <constraint firstAttribute="bottom" secondItem="Q3h-bN-kgh" secondAttribute="bottom" id="QH1-6z-Rip"/>
                             <constraint firstItem="Q3h-bN-kgh" firstAttribute="top" secondItem="aSk-cr-Be5" secondAttribute="top" id="Wvh-kw-zWS"/>
