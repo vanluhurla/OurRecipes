@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://i.postimg.cc/44Ppb19S/temp-Image6-S8-OE1.avif" width="30%" height="30%">
+    <img src="https://i.postimg.cc/jSXZb1GG/icon2.png">
 </p>
 <br>
 
